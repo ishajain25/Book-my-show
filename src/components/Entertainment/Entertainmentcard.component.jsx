@@ -6,7 +6,7 @@ const EntertainmentCard = (props) => {
         <>
             <div className="w-full h-30 px-2">
                 <img 
-                    className="w-full h-full rounded-xl" 
+                    className="w-full h-full rounded-xl " 
                     src = {props.src} 
                     alt="entertainemnt image"
                 />
@@ -28,7 +28,7 @@ const EntertainmentImage = [
 ];
 
     const settings = {
-        Infinity: false,
+        infinite: false,
         autoplay: false,
         slidesToShow: 4,
         slidesToScroll: 4,

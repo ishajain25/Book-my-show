@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react"
 
-export const Movie.page = () => {
+//component
+import MovieHero from "../components/MovieHero/MovieHero.component";
+
+const Movie = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <MovieHero />
+        </>
     )
 }
+
+export default Movie;
