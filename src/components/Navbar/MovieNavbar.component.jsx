@@ -19,8 +19,8 @@ const NavSm =() => {
 const NavLg =() => {
     return(
         <> 
-            <div className="container mx-auto px-4 flex items-center justify-between">
-                <div className="flex items-center w-1/2 gap-3">
+            <div className="container mx-auto px-10 flex items-center justify-between">
+                <div className="flex items-center w-1/2 gap-4">
                     <div className="w-12 h-12">
                         <img 
                         src="https://i.ibb.co/zPBYW3H/imgbin-bookmyshow-office-android-ticket-png.png" 
@@ -36,7 +36,7 @@ const NavLg =() => {
                         placeholder="Search for movies, events, plays, sports and activities"/>
                     </div>
                 </div>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-4">
                     <span className="text-gray-200 text-xs flex items-center cursor-pointer hover:text-white"> 
                         Indore <BiChevronDown/>
                     </span>
